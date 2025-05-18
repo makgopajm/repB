@@ -5,7 +5,7 @@ on:
     types: [build-lambda-images]
 
 env:
- token:  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
+ token: ${{ secret.token}}
 
 jobs:
   build-push-images:
